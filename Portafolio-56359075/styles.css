@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+  background-image: url("R.jfif");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #ffffff; /* Color de texto blanco para todo el cuerpo */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+header {
+  background-color: #242424;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff; /* Color de texto blanco en el encabezado */
+  display: flex;
+  justify-content: left; /* Ajusta esto según tus necesidades */
+  align-items: center;
+  gap: 10px;
+}
+
+/* Estilos para las secciones */
+h1 {
+  margin: 0; /* Elimina márgenes predeterminados para el título */
+  color: #ffffff; /* Color de texto blanco para el título */
+}
+
+h2 {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px; /* Agrega margen superior entre secciones */
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px; /* Ancho máximo para el contenido de texto */
+  margin-bottom: 20px; /* Agrega margen inferior entre p y h2 */
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px; /* Ancho máximo para la lista no ordenada */
+}
+
+/* Estilo para la lista de habilidades */
+ul.skills-list {
+  list-style-type: none; /* Elimina los marcadores de lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+}
+
+ul.skills-list li {
+  display: inline-block; /* Alinea los elementos en línea */
+  margin-right: 20px; /* Agrega margen derecho para separación */
+  color: #ffffff; /* Color de texto blanco para las habilidades */
+}
+
+/* Estilos para el pie de página */
+footer {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Asegura que el pie de página tenga el ancho completo */
+}
+
+/* Agrega estilos para centrar el texto */
+.centered-text {
+  text-align: center;
+}
